@@ -2,7 +2,7 @@
 
 Spin up db:
 
-`mongod --dbpath ./data/db`
+`sudo mongod --fork --logpath /var/log/mongod.log --dbpath ./data/db`
 
 Start:
 
